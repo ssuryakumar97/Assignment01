@@ -1,0 +1,19 @@
+1. Write a blog on difference between HTTP1.1 vs HTTP2.
+
+The main difference between HTTP1.1 vs HTTP2 is multiplexing.
+Multiplexing stands for loading the data simultaneously.
+In HTTP1.1 if client ask for the several data server will send the data one after another after receiving confirmation from the client.
+While in HTTP2 if client ask for the several data server will send all data's parallely(simultaneously).Here client will recieve the data simultaneously.
+
+2. Write a blog about objects and its internal representation in javascript.
+
+Objects are defined as unordered collection of related data's. Obejects are represented in terms of key:value pair structure.
+
+Object representation:
+var cars={
+name:"TATA Harrier"
+Seater:"5"
+color: "White"
+}
+
+name represents key & tata harrier represents the value for that key.
